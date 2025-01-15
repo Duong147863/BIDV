@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIDV Login</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="login">
+        <div class="login-container">
+            <header class="login-header">
+                <div class="header-background"></div>
+                <div class="header-content">
+                    <div class="brand">
+                        <h1 class="brand-name">BIDV</h1>
+                        <img class="brand-logo"
+                            src="https://c.animaapp.com/jRdnim9q/img/thi-t-k--ch-a-c--t-n--8--1@2x.png"
+                            alt="BIDV Logo" />
+                    </div>
+                    <form class="search-form" role="search">
+                        <div class="search-input-wrapper">
+                            <img class="search-icon" src="https://c.animaapp.com/jRdnim9q/img/group@2x.png"
+                                alt="Search icon" />
+                            <input type="search" placeholder="Search" class="search-input" />
+                            <img class="dropdown-icon" src="https://c.animaapp.com/jRdnim9q/img/vector-723.svg"
+                                alt="Dropdown icon" />
+                        </div>
+                    </form>
+                </div>
+                <div class="user-greeting">
+                    <img class="user-avatar" src="https://c.animaapp.com/jRdnim9q/img/carbon-user-avatar-filled-1.svg"
+                        alt="User avatar" />
+                    <p class="greeting-text">Chào mừng!<br />Nguyễn Ann Home</p>
+                </div>
+            </header>
+
+
+            <nav class="login-button">
+                <button class="login-btn" type="button" id="open-modal">
+                    <span class="login-text">Đăng nhập</span>
+                    <img class="login-icon" src="https://c.animaapp.com/jRdnim9q/img/vector-1.svg" alt="Login icon" />
+                </button>
+            </nav>
+            
+            <!-- Modal container -->
+            <div id="modal" class="modal hidden">
+                <div class="modal-content">
+                    <div class="input">
+                        <div class="div">
+                            <div class="overlap-group">
+                                <div class="m-t-kh-u">************</div>
+                                <div class="rectangle"></div>
+                                <div class="text-wrapper">Mật khẩu</div>
+                            </div>
+                            <img class="line" src="https://c.animaapp.com/am0Xm916/img/line-4.svg" />
+                            <img class="lock" src="https://c.animaapp.com/am0Xm916/img/lock.svg" />
+                            <img class="eye" src="https://c.animaapp.com/am0Xm916/img/eye.svg" />
+                            <img class="img" src="img/line-5.svg" />
+                        </div>
+                        <div class="group">
+                            <img class="x-circle" src="https://c.animaapp.com/am0Xm916/img/xcircle.svg" alt="Close" />
+                            <img class="vector" src="https://c.animaapp.com/am0Xm916/img/vector.svg" />
+                            <p class="nguyen-ann-home">
+                                <span class="span"><br /></span> <span class="text-wrapper-2">Nguyen Ann Home</span>
+                            </p>
+                            <div class="text-wrapper-3">190******876</div>
+                        </div>
+                        <div class="DANG-NHAP">
+                            <div class="button-small">
+                                <div class="frame"><button class="button" id="modal-login-button">ĐĂNG NHẬP</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <script src="script.js"></script>
+
+
+            <section class="feature-grid">
+                <div class="feature-item transfer">
+                    <img class="feature-icon" src="https://c.animaapp.com/jRdnim9q/img/proicons-arrow-swap-1.svg"
+                        alt="Transfer icon" />
+                </div>
+                <div class="feature-item wallet">
+                    <img class="feature-icon" src="https://c.animaapp.com/jRdnim9q/img/akar-icons-wallet-1.svg"
+                        alt="Wallet icon" />
+                </div>
+                <div class="feature-item savings">
+                    <img class="feature-icon" src="https://c.animaapp.com/jRdnim9q/img/tdesign-saving-pot-1.svg"
+                        alt="Savings icon" />
+                </div>
+                <div class="feature-item shopping">
+                    <img class="feature-icon" src="https://c.animaapp.com/jRdnim9q/img/icon-park-outline-shopping-1.svg"
+                        alt="Shopping icon" />
+                </div>
+            </section>
+            <section class="quick-access">
+                <div class="quick-access-item">
+                    <img class="quick-access-icon" src="https://c.animaapp.com/jRdnim9q/img/gg-qr-1.svg"
+                        alt="QR code icon" />
+                </div>
+                <div class="quick-access-item">
+                    <img class="quick-access-icon"
+                        src="https://c.animaapp.com/jRdnim9q/img/tdesign-lighting-circle-filled-1.svg"
+                        alt="Lighting icon" />
+                </div>
+                <div class="quick-access-item">
+                    <img class="quick-access-icon" src="https://c.animaapp.com/jRdnim9q/img/pixelarticons-4g-1.svg"
+                        alt="4G icon" />
+                </div>
+            </section>
+            <section class="additional-features">
+                <img class="feature-group" src="https://c.animaapp.com/jRdnim9q/img/group-3@2x.png"
+                    alt="Feature group 1" />
+                <img class="feature-group" src="https://c.animaapp.com/jRdnim9q/img/group-4@2x.png"
+                    alt="Feature group 2" />
+                <img class="feature-group" src="https://c.animaapp.com/jRdnim9q/img/group-3@2x.png"
+                    alt="Feature group 3" />
+                <img class="feature-group" src="https://c.animaapp.com/jRdnim9q/img/group-4@2x.png"
+                    alt="Feature group 4" />
+            </section>
+            <footer class="app-footer">
+                <nav class="footer-nav">
+                    <a href="#home" class="nav-item home">
+                        <img src="https://c.animaapp.com/jRdnim9q/img/house.svg" alt="Home icon" class="nav-icon" />
+                        <span class="nav-text">Trang chủ</span>
+                    </a>
+                    <a href="#qr" class="nav-item qr">
+                        <div class="qr-background">
+                            <img src="https://c.animaapp.com/jRdnim9q/img/qrcode.svg" alt="QR code icon"
+                                class="nav-icon qr-icon" />
+                        </div>
+                    </a>
+                    <a href="#notifications" class="nav-item notifications">
+                        <img src="https://c.animaapp.com/jRdnim9q/img/bellsimple.svg" alt="Notifications icon"
+                            class="nav-icon" />
+                        <span class="nav-text">Thông báo</span>
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
