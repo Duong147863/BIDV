@@ -1,4 +1,5 @@
-:root {
+/* file css ban đầu */
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,58 +12,49 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:600");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dựa vào styleguide.css */
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --123-font-family: "Plus Jakarta Sans", Helvetica;
+  --123-font-weight: 500;
+  --123-font-size: 16px;
+  --123-letter-spacing: 0px;
+  --123-line-height: 24px;
+  --123-font-style: normal;
+  --BIDV-OMNI-MB-font-family: "Inter", Helvetica;
+  --BIDV-OMNI-MB-font-weight: 600;
+  --BIDV-OMNI-MB-font-size: 22px;
+  --BIDV-OMNI-MB-letter-spacing: 0px;
+  --BIDV-OMNI-MB-line-height: 32px;
+  --BIDV-OMNI-MB-font-style: normal;
+  --variable-collection-color-xanh-1: rgba(35, 140, 131, 1);
+  --variable-collection-x-m-1: rgba(129, 139, 139, 1);
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  text-decoration: none;
 }
